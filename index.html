@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div id="div1" class="div active div1" style="font-size: 20px;">
-            <p style="color: rgb(28, 8, 244);"><b>Please choose a fruit from the list below...</b></p>
+            <p style="color:black;"><b>Please choose a fruit from the list below...</b></p>
             <p>Apple</p>
             <p>Banana</p>
             <p>Coconut</p>
@@ -20,7 +20,7 @@
             <p>Orange</p>
             <p>Papaa</p>
             <p>WaterMalon</p>
-            <button id="btn" type="button" class="btn btn-outline-primary" onclick="nstep()"><b>START</b></button>
+            <button id="btn" type="button" class="btn btn-outline-warning" onclick="nstep()"><b>START</b></button>
         </div>
         <div id="div2" class="div div2">
             <p>Apple</p>
@@ -89,17 +89,18 @@
         </div>
         <div class="div btns" id="btns">
             <div style="height: 2px; background-color: black;"></div>
-            <p style="font-size: 20px; color: rgb(255, 106, 0);">The fruit you chose is present </p>
-            <button type="button" class="btn btn-outline-primary" onclick="noStep()"><i><b>NO</b></i></button>
-            <button type="button" class="btn btn-outline-primary" onclick="yesStep()"><i><b>YES</b></i></button>
+            <p style="font-size: 20px;">The fruit you chose is present </p>
+            <button type="button" class="btn btn-outline-warning" onclick="noStep()"><i><b>NO</b></i></button>
+            <button type="button" class="btn btn-outline-warning" onclick="yesStep()"><i><b>YES</b></i></button>
         </div>
         <div class="result div" id="result">
-            <h3>You start with</h3>
+            <p style="font-size: 25px;">You start with</p>
             <h1></h1>
+            <p id="wrong" class="wrong" style="font-size: 20px; color: red;"></p>
         </div>
         <div class="div restart" id="restart">
         <hr><br>
-            <button type="button" class="btn btn-outline-primary" onclick="restart()"><i><b>RESTART</b></i></button>
+            <button type="button" class="btn btn-outline-warning" onclick="restart()"><i><b>RESTART</b></i></button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
