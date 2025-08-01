@@ -6,7 +6,7 @@
 
 body{
     font-size: 20px;
-    /* background-color: #5b5bde; */
+    background-color: black;
     margin: 0;
     display: flex;
     align-items: center;
@@ -21,9 +21,15 @@ body{
     border: 5px solid black;
     border-radius: 15px;
     padding: 20px;
-    background-color: aquamarine;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    color: white;
     position: relative;
     font-size: 30px;
+}
+
+.container p{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .div{
@@ -57,7 +63,7 @@ button{
 }
 
 h1{
-    color: rgb(246, 72, 60);
+    color: rgb(31, 12, 154);
     font-style: italic;
 }
 
